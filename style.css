@@ -1,11 +1,12 @@
 body {
   background: linear-gradient(180deg, #615dad, #ffc8da);
+  margin: 40px;
 }
 
 .profil {
   color: #ffffff;
   background-color: #283e50;
-  width: 400px;
+  width: 380px;
   font-family: sans-serif;
   text-align: center;
 }
@@ -26,6 +27,7 @@ p {
 .tlacitka li {
   list-style-type: none;
   padding: 20px 0;
+  border-top: 2px solid rgb(66, 65, 65);
 }
 
 ul.tlacitka {
@@ -33,9 +35,18 @@ ul.tlacitka {
   padding: 0;
 }
 
-/*
-Další barvy, které se ti budou hodit:
-Tlačítko Pravidla #1fcca4. A po najetí myši #1cbb96.
-Tlačítko Začít hrát #0197f6. Po najetí #0090e9.
+.pravidla {
+  background-color: #1fcca4;
+}
 
-*/
+.hra {
+  background-color: #0197f6;
+}
+
+.pravidla:hover {
+  background-color: #1cbb96;
+}
+
+.hra:hover {
+  background-color: #0090e9;
+}
