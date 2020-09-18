@@ -1,12 +1,13 @@
-.body {
-  background-color: linear-gradient(#615dad, #ffc8da);
+body {
+  background: linear-gradient(180deg, #615dad, #ffc8da);
 }
 
 .profil {
   color: #ffffff;
   background-color: #283e50;
-  width: 400 px;
+  width: 400px;
   font-family: sans-serif;
+  text-align: center;
 }
 
 .foto {
@@ -17,8 +18,19 @@ h1 {
   font-family: 'Lobster', cursive;
 }
 
-.odkazy {
+p {
+  padding: 20px;
+  margin: 0px;
+}
+
+.tlacitka li {
   list-style-type: none;
+  padding: 20px 0;
+}
+
+ul.tlacitka {
+  margin: 0;
+  padding: 0;
 }
 
 /*
