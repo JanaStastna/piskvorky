@@ -4,6 +4,9 @@ html {
 
 body {
   background: linear-gradient(180deg, #615dad, #ffc8da);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profil {
