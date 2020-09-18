@@ -1,15 +1,28 @@
+.body {
+  background-color: linear-gradient(#615dad, #ffc8da);
+}
+
+.profil {
+  color: #ffffff;
+  background-color: #283e50;
+  width: 400 px;
+  font-family: sans-serif;
+}
+
+.foto {
+  width: 100%;
+}
+
 h1 {
   font-family: 'Lobster', cursive;
-  color: #ffffff;
-  ;
+}
 
+.odkazy {
+  list-style-type: none;
 }
 
 /*
-Gradient v pozadí jde z fialové #615dad do růžové #ffc8da.
 Další barvy, které se ti budou hodit:
-Barva textu #ffffff.
-Podkladová tmavě modrá #283e50.
 Tlačítko Pravidla #1fcca4. A po najetí myši #1cbb96.
 Tlačítko Začít hrát #0197f6. Po najetí #0090e9.
 
