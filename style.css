@@ -1,6 +1,9 @@
+html {
+  height: 100%;
+}
+
 body {
   background: linear-gradient(180deg, #615dad, #ffc8da);
-  margin: 40px;
 }
 
 .profil {
@@ -9,6 +12,7 @@ body {
   width: 380px;
   font-family: sans-serif;
   text-align: center;
+  margin: 40px;
 }
 
 .foto {
