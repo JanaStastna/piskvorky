@@ -13,10 +13,12 @@ body {
   font-family: sans-serif;
   text-align: center;
   margin: 40px;
+  border-radius: 7px 7px 0 0;
 }
 
 .foto {
   width: 100%;
+  border-radius: 7px 7px 0 0;
 }
 
 h1 {
