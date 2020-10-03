@@ -1,6 +1,9 @@
-body {
+html {
   height: 100vh;
   background: linear-gradient(180deg, #615dad, #ffc8da);
+}
+
+body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,9 +26,11 @@ body {
 
 h1 {
   font-family: 'Lobster', cursive;
+  text-align: center;
+  margin: 0 0 20px 0;
 }
 
-p {
+.obsah {
   padding: 20px;
   margin: 0;
 }
@@ -55,4 +60,39 @@ ul.tlacitka {
 
 .hra:hover {
   background-color: #0090e9;
+}
+
+/*
+odsud styluji pravidla.html
+*/
+
+.profilPravidla {
+  color: #ffffff;
+  background-color: #283e50;
+  width: 380px;
+  font-family: sans-serif;
+  margin: 40px;
+  border-radius: 7px 7px 0 0;
+  text-align: center;
+}
+
+.instrukce {
+  width: 320px;
+  padding-top: 20px;
+}
+.uvod {
+  background-color: #1fcca4;
+}
+
+.uvod:hover {
+  background-color: #1cbb96;
+}
+
+.obsahPravidla {
+  padding: 30px;
+}
+
+p {
+  padding: 0px;
+  margin: 0 0;
 }
