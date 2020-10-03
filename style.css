@@ -24,7 +24,7 @@ body {
   border-radius: 7px 7px 0 0;
 }
 
-h1 {
+.nadpis {
   font-family: 'Lobster', cursive;
   text-align: center;
   margin: 0 0 20px 0;
@@ -70,9 +70,9 @@ odsud styluji pravidla.html
   color: #ffffff;
   background-color: #283e50;
   width: 380px;
-  font-family: sans-serif;
   margin: 40px;
   border-radius: 7px 7px 0 0;
+  font-family: sans-serif;
   text-align: center;
 }
 
@@ -95,4 +95,30 @@ odsud styluji pravidla.html
 p {
   padding: 0px;
   margin: 0 0;
+}
+
+ol {
+  text-align: left;
+}
+
+ol li {
+  margin: 10px 0;
+}
+
+.nadpis2 {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.kolecko {
+  filter: invert(100%);
+  width: 1em;
+  height: 1em;
+}
+
+.krizek {
+  filter: invert(100%);
+  width: 1em;
+  height: 1em;
 }
