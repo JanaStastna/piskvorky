@@ -1,5 +1,5 @@
 html {
-  height: 100vh;
+  min-height: 100%;
   background: linear-gradient(180deg, #615dad, #ffc8da);
 }
 
@@ -70,16 +70,16 @@ odsud styluji pravidla.html
   color: #ffffff;
   background-color: #283e50;
   width: 380px;
-  margin: 40px;
+  margin: 30px;
   border-radius: 7px 7px 0 0;
   font-family: sans-serif;
   text-align: center;
 }
 
 .instrukce {
-  width: 320px;
   padding-top: 20px;
 }
+
 .uvod {
   background-color: #1fcca4;
 }
@@ -89,12 +89,7 @@ odsud styluji pravidla.html
 }
 
 .obsahPravidla {
-  padding: 30px;
-}
-
-p {
-  padding: 0px;
-  margin: 0 0;
+  padding: 20px 40px 0 30px;
 }
 
 ol {
