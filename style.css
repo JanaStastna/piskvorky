@@ -82,6 +82,7 @@ odsud styluji pravidla.html
 
 .uvod {
   background-color: #1fcca4;
+  list-style-type: none;
 }
 
 .uvod:hover {
@@ -157,4 +158,9 @@ ol li {
   .obrazkyPravidla figure {
     width: 260px;
   }
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
