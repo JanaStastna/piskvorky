@@ -176,10 +176,6 @@ odsud styluji stránku hra.html
   font-family: sans-serif;
   text-align: center;
   max-width: 80vmin;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
 }
 
 .ctverecky {
@@ -193,6 +189,7 @@ button {
   height: 25px;
   padding: 0;
   border: 1px solid rgb(66, 65, 65);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .nadpisHra {
@@ -203,15 +200,14 @@ button {
 
 .podnadpis {
   text-transform: uppercase;
-  text-align: left;
   margin: 0;
 }
 /*
 .podnadpis::after {
   content: '';
-  width: 50px;
-  height: 50px;
-  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  border: 4px solid black;
   border-radius: 50%;
 }
 */
@@ -220,6 +216,7 @@ button {
   filter: invert(100%);
   width: 20px;
   height: 20px;
+  padding: 0px 0px 0px 4px;
 }
 
 .radekDruhy {
@@ -245,7 +242,7 @@ button {
 
 .hraje {
   display: flex;
-  flex-direction: row;
+  align-items: center;
 }
 
 .domecek:hover {
@@ -256,5 +253,6 @@ button {
   background-color: #0090e9;
 }
 
-.ctverecky:hover {
+button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
