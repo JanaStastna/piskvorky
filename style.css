@@ -170,24 +170,27 @@ odsud styluji stránku hra.html
 
 .profilHra {
   color: #ffffff;
-  width: 380px;
+  width: 250px;
   margin: 30px;
   border-radius: 7px 7px 0 0;
   font-family: sans-serif;
   text-align: center;
   max-width: 80vmin;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 
 .ctverecky {
   display: flex;
   flex-wrap: wrap;
-  width: 320px;
-  justify-content: center;
+  width: 250px;
 }
 
 button {
-  width: 32px;
-  height: 32px;
+  width: 25px;
+  height: 25px;
   padding: 0;
   border: 1px solid rgb(66, 65, 65);
 }
@@ -201,6 +204,7 @@ button {
 .podnadpis {
   text-transform: uppercase;
   text-align: left;
+  margin: 0;
 }
 /*
 .podnadpis::after {
@@ -220,6 +224,37 @@ button {
 
 .radekDruhy {
   display: flex;
-  justify-content: center;
-  align-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.domecek {
+  background-color: #1fcca4;
+  padding: 8px;
+  margin: 4px;
+  border-radius: 7px 7px 7px 7px;
+}
+
+.restart {
+  background-color: #0197f6;
+  padding: 8px;
+  margin: 4px;
+  border-radius: 7px 7px 7px 7px;
+}
+
+.hraje {
+  display: flex;
+  flex-direction: row;
+}
+
+.domecek:hover {
+  background-color: #1cbb96;
+}
+
+.restart:hover {
+  background-color: #0090e9;
+}
+
+.ctverecky:hover {
 }
