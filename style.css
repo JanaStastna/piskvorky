@@ -123,7 +123,6 @@ ol li {
 
 úprava pro počítač a pro extra širokou obrazovku
 
-
 */
 
 @media screen and (min-width: 768px) {
@@ -163,4 +162,51 @@ ol li {
 a {
   text-decoration: none;
   color: white;
+}
+
+/*
+odsud styluji stránku hra.html
+*/
+
+.profilHra {
+  color: #ffffff;
+  width: 380px;
+  margin: 30px;
+  border-radius: 7px 7px 0 0;
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 80vmin;
+}
+
+.ctverecky {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  justify-content: center;
+}
+
+button {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid rgb(66, 65, 65);
+}
+
+.nadpisHra {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.podnadpis {
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.podnadpis::after {
+  content: '';
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
 }
