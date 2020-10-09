@@ -197,7 +197,7 @@ button:before {
 .nadpisHra {
   font-family: 'Lobster', cursive;
   text-align: center;
-  margin: 0 0 20px 0;
+  margin: 60px 0 20px 0;
 }
 
 .podnadpis {
@@ -213,6 +213,7 @@ button:before {
   border-radius: 50%;
   position: absolute;
   margin: 0;
+  margin-left: 5px;
 }
 
 .radekDruhy {
