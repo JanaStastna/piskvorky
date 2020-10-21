@@ -204,6 +204,7 @@ button:before {
   text-transform: uppercase;
   margin: 0;
   position: relative;
+
 }
 .podnadpis::after {
   content: '';
