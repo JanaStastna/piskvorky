@@ -13,14 +13,15 @@ const zjistiTridu = () => {
 };
 
 const zmenHrace = () => {
+  const hrajeElm = document.querySelector('.hraje');
   if (kdoHraje === 'kolecko') {
     kdoHraje = 'krizek';
-    const hrajeElm = document.querySelector('.hraje');
-    hrajeElm.innerHTML = `<h2>HRAJE:</h2><img class="krizek" src="cross.svg" alt="krize" />`;
+    hrajeElm.classList.add('.hrajeKolecko');
+    /*hrajeElm.innerHTML = `<h2>HRAJE:</h2><img class="krizek" src="cross.svg" alt="krize" />`;*/
   } else {
     kdoHraje = 'kolecko';
-    const hrajeElm = document.querySelector('.hraje');
-    hrajeElm.innerHTML = `<h2>HRAJE:</h2><img class="kolecko" src="circle.svg" alt="kolecko" />`;
+    hrajeElm.classList.add('.hrajeKrizek');
+    /*hrajeElm.innerHTML = `<h2>HRAJE:</h2><img class="kolecko" src="circle.svg" alt="kolecko" />`;*/
   }
 };
 

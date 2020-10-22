@@ -205,6 +205,7 @@ button:before {
   margin: 0;
   position: relative;
 }
+/*
 .podnadpis::after {
   content: '';
   width: 20px;
@@ -215,6 +216,7 @@ button:before {
   margin: 0;
   margin-left: 5px;
 }
+*/
 
 .radekDruhy {
   display: flex;
