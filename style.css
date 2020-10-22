@@ -204,7 +204,6 @@ button:before {
   text-transform: uppercase;
   margin: 0;
   position: relative;
-
 }
 .podnadpis::after {
   content: '';
@@ -257,4 +256,14 @@ button:hover {
 
 .body {
   display: block;
+}
+
+.hrajeKolecko {
+  background-image: url('circle.svg');
+  background-size: cover;
+}
+
+.hrajeKrizek {
+  background-image: url('cross.svg');
+  background-size: cover;
 }
