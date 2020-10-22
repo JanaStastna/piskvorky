@@ -2,7 +2,7 @@
 
 console.log('funguje to!');
 
-let kdoHraje = '';
+let kdoHraje = 'kolecko';
 
 const zjistiTridu = () => {
   if (kdoHraje === 'kolecko') {
@@ -16,11 +16,11 @@ const zmenHrace = () => {
   if (kdoHraje === 'kolecko') {
     kdoHraje = 'krizek';
     const hrajeElm = document.querySelector('.hraje');
-    hrajeElm.innerHTML = `<h2>HRAJE:</h2><img class="kolecko" src="circle.svg" alt="kolečko" />`;
+    hrajeElm.innerHTML = `<h2>HRAJE:</h2><img class="krizek" src="cross.svg" alt="krize" />`;
   } else {
     kdoHraje = 'kolecko';
     const hrajeElm = document.querySelector('.hraje');
-    hrajeElm.innerHTML = `<h2>HRAJE:</h2><img class="krizek" src="cross.svg" alt="krizek" />`;
+    hrajeElm.innerHTML = `<h2>HRAJE:</h2><img class="kolecko" src="circle.svg" alt="kolecko" />`;
   }
 };
 
